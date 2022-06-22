@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+  * { margin : 0; padding : 0; box-sizing : border-box; }
+  li { list-style-type : none; }
+  .box { width : 1100px; margin : 0 auto; /* border : solid 1px red; */ }
+  aside { width : 220px; float : left; margin : 70px 0; 
+         /* border : solid 1px red; */ }
+  aside .title1 { padding : 12px; background-color : #0ca9a3; color : white;
+	        font-size : 18px; }
+  aside .comment { padding : 20px 10px; line-height : 150%; }
+  aside .search input { 	width : 160px; height : 32px; border : solid 1px black;
+	                vertical-align : top; }
+  aside .search button { margin-left : 5px; padding : 6px 10px;
+	                 border : solid 1px black; }
+/* 베이킹/요리 */
+  aside .title2 { margin-top : 20px; padding : 12px; border-top : solid 2px black;
+   	        border-bottom : solid 1px #cccccc; font-size : 18px; }
+  aside .list { margin : 20px 0; }
+  aside .list li { margin : 10px 12px; }
+/* 최근 댓글 */
+aside .ripple { border : solid 1px #0ca9a3; padding : 12px; }
+  aside .ripple h2 { font-size : 18px; margin : 10px 0 15px 0; }
+  aside .ripple li { margin-top : 6px; }
+  #main { width : 840px; float : right; margin : 70px 0; border : dotted 1px red; }
+</style>
+</head>
+<body>
+	<div class="box">
+		<aside>
+			<h2 class="title1">The 베이킹</h2>
+			<p class="comment">안녕하세요. 쿠키와 빵 만들기 정보를 공유하고 소통하는 공간입니다.</p>
+			<div class="search">
+				<input type="text"><button>검색</button>
+			</div> <!-- search -->
+
+			<h2 class="title2">베이킹/요리</h2>
+			<ul class="list">
+				<li>쿠키 만들기</li>
+				<li>빵 만들기</li>
+				<li>마카롱 만들기</li>
+			</ul> <!-- list -->
+
+			<div class="ripple">
+				<h2>최근 댓글</h2>
+				<ul>
+					<li>안녕하세요.</li>
+					<li>안녕하세요.</li>
+					<li>안녕하세요.</li>
+				</ul>
+			</div> <!-- ripple -->
+		</aside>
+		
+		<section id="main">
+			메인 섹션
+		</section> <!-- main_image -->
+	</div> <!-- box -->
+</body>

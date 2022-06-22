@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <style> /* 외부로 표시되는 <body> ~ 부분에 적용할 속성 설정*/
+        table { border-collapse: collapse; } /* 태그 선택자, collapse는 단일 경계선, separate는 이중 경계선*/
+        table, th, td { border: solid 5px #cccccc; } /* 집합 선택자*/
+        table { border-top: solid 3px orange; } /* 태그 선택자*/
+        th { padding: 10px; background-color: #eeeeee;  } /* 태그 선택자, table header 첫줄제목*/
+        td { padding: 10px; text-align: center;  } /* 태그 선택자, table cell*/
+        #col1, #col2, #col3 { width: 100px; } /* 집합적 id 선택자*/
+        #col4 { width: 250px; } /* 단독 id 선택자*/
+        .bold { font-weight: bold; } /* 클래스 선택자*/
+                     /* 테이블에서 tr은 행 설정,th는 제목설정,td는 셀 설정 */
+    </style>
+</head>
+<body>
+    <h3>놀이공원 이용권</h3>
+    <table>
+        <tr><th id="col1">종료</th><th id="col2">대인</th><th id="col3">소인</th> <th id="col4">비고</th></tr>
+        <tr><td class="bold">주간권</td><td>20,000원</td><td>10,000원</td><td rowspan="3">공원 입장및 놀이시설 이용<br>(일부 놀이기구 별도 요금)</td></tr>
+        <tr><td class="bold">야간권</td><td>15,000원</td><td>8,000원</td></tr>
+        <tr><td class="bold">2일권</td><td>30,000원</td><td>15,000원</td></tr>
+    </table>
+</body>
+</html>

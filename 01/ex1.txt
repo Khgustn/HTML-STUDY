@@ -1,0 +1,16 @@
+<!doctype HTML> <!-- HTML version 5-->
+<html>  <!-- 전체적인 웹페이지 시작-->
+<head>
+<meta charset="utf-8> <!-- 문자열 지정-->
+<style>   <!-- CSS 내용:html을 풍성하게 해줌 -->
+ h3{
+   color:blue; <!--//"key:value;"<=json format-->
+   }
+</style>
+</head>
+<body>
+  <h3>웹의 역할</h3>
+  <p>인터넷과 웹 블우저를 통해서 상호 정보를 제공하고 소통하게 함 </p>
+</body>
+
+</html>
